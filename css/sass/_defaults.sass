@@ -16,20 +16,49 @@ html
     font-family: "Open Sans", sans-serif
     font-size: 18px
     line-height: 1.6
+    -ms-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%
     
 body 
   background: $bgcolor
   color: $text
 
+article,
+aside,
+footer,
+header,
+nav,
+section,
+figcaption,
+figure,
+main
+  display: block
+
 figure 
-  margin: 0;
+  margin: 0
 
 img, picture 
-  margin: 0;
-  max-width: 100%;
+  margin: 0
+  max-width: 100%
+  border-style: none
+
+button,
+input,
+optgroup,
+select,
+textarea
+  font-family: sans-serif
+  font-size: 100%
+  line-height: 1.15
+  margin: 0
+
+canvas
+  display: inline-block
+
+[hidden]
+  display: none
 
 section 
-  display: block
   width: 100%
   min-height: 300px
   padding: 20px 15px  
