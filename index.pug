@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Modal Tutorial
+    link(rel="stylesheet", href="css/app.css")
+  body
+    button(id="btn") Log In
+    div.modal-section
+      div.modal
+        div.modal--header
+          h3 Greetings Guest
+          span#close &times;
+        div.modal--body
+          form(action="" method="POST")
+            input(type="text" name="name" id="name" placeholder="Your User Name")
+            input(type="password" name="password" id="password")
+            input(type="button" name="login" value="Login!")
+            input(type="hidden" name="csrf-token" value="weurgw3iefug2924655fhfw08e34yr924fw")
+  script(src="js/app.js")
+  

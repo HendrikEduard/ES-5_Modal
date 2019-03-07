@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+body {
+  background: #211331;
+  color: #e8eddf;
+}
+
+figure {
+  margin: 0;
+}
+
+img, picture {
+  margin: 0;
+  max-width: 100%;
+}
+
+section {
+  display: block;
+  width: 100%;
+  min-height: 300px;
+  padding: 20px 15px;
+}
+
+body {
+  padding: 30px;
+  background: #eaeaea;
+}
+
+#btn {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 1rem 2rem;
+  background: #FF3D00;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 11px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+#btn:hover {
+  background: white;
+  color: #ff3d00;
+  border: 1px solid #ff3d00;
+}
+
+.modal-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #333333;
+  z-index: 1;
+  display: none;
+}
+
+.modal {
+  width: 40%;
+  height: auto;
+  margin: 10% auto;
+  background: #fff;
+  border-radius: 11px;
+  overflow: hidden;
+  -webkit-animation: modalAnimate 1s;
+          animation: modalAnimate 1s;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 11px;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 11px;
+  outline: none;
+  cursor: pointer;
+}
+
+form [type="button"] {
+  background: #FF3D00;
+  color: white;
+}
+
+form [type="button"]:hover {
+  background: white;
+  color: #FF3D00;
+  border: 1px solid #ff3d00;
+}
+
+@-webkit-keyframes modalAnimate {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modalAnimate {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal--header {
+  padding: 20px;
+  background: #ff3d00;
+  color: #ffffff;
+}
+
+#close {
+  display: block;
+  font-size: 25px;
+  float: right;
+  margin-top: -38px;
+  cursor: pointer;
+}
+
+.modal--body {
+  padding: 20px;
+}
+/*# sourceMappingURL=app.css.map */
